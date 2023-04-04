@@ -68,7 +68,7 @@ class LineReader {
     }
   }
 
-  private async setSeparator() {
+  public async _determineSeparator() {
     let separator: LineSeparator | undefined;
 
     while (!this.reader.isClosed) {
@@ -96,8 +96,8 @@ class LineReader {
     this.separator = separator || '\r\n';
   }
 
-  private async nextChunk() {
-    if (!this.separator) await this.setSeparator();
+  public async _nextChunk() {
+    if (!this.separator) await this._determineSeparator();
 
     let chunks = '';
     let cutAt = 0;
@@ -134,7 +134,7 @@ class LineReader {
       if (!this.reader.bytesLength) return [];
 
       if (!limit || limit > this.buffer.length) {
-        const output = (await this.nextChunk()) || '';
+        const output = (await this._nextChunk()) || '';
 
         if (output || !this.isClosed) {
           const texts = output.split(this.separator!);
