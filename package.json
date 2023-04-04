@@ -34,7 +34,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "chunk-reader2": "^1.0.4"
+    "chunk-reader2": "^1.1.2"
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",
