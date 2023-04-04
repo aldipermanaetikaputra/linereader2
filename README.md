@@ -379,7 +379,7 @@ yarn test
 
 ## Related
 
-- [chunk-reader2](https://github.com/aldipermanaetikaputra/chunk-reader2) - Asynchronous, buffered, chunk-by-chunk file reader with customizable buffer size. **(This library internally uses this package)**
+- [chunkreader2](https://github.com/aldipermanaetikaputra/chunkreader2) - Asynchronous, buffered, chunk-by-chunk file reader with customizable buffer size. **(This library internally uses this package)**
 
 ## Contribute
 
