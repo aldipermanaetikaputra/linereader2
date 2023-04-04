@@ -189,6 +189,6 @@ class LineReader {
 }
 
 type NumberRange = [number, number];
-type LineSeparator = '\r\n' | '\r' | '\n';
+type LineSeparator = '\r\n' | '\r' | '\n' | string;
 
 export default LineReader;
