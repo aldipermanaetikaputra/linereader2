@@ -109,7 +109,7 @@ class LineReader {
 
       chunks += chunk;
 
-      if (foundAt !== -1) {
+      if (foundAt !== -1 && foundAt < chunk.length - this.separator!.length) {
         cutAt = chunks.length - chunk.length + foundAt;
         cutted = true;
         break;
