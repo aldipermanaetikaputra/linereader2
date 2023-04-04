@@ -71,7 +71,7 @@ describe('Reads 1000 lines without blank lines', () => {
     const skipNumbers: number[] = [];
 
     while (skipNumbers.length < skipTotal) {
-      const number = random(0, total);
+      const number = random(1, total);
       if (!skipNumbers.includes(number)) {
         skipNumbers.push(number);
       }
@@ -124,7 +124,7 @@ describe('Reads 1000 lines without blank lines', () => {
     const skipNumbers: number[] = [];
 
     while (skipNumbers.length < skipTotal) {
-      const number = random(0, total);
+      const number = random(1, total);
       if (!skipNumbers.includes(number)) {
         skipNumbers.push(number);
       }
@@ -229,7 +229,7 @@ describe('Reads 1000 lines without blank lines', () => {
     const skipNumbers: number[] = [];
 
     while (skipNumbers.length < skipTotal) {
-      const number = random(0, total);
+      const number = random(1, total);
       if (!skipNumbers.includes(number)) {
         skipNumbers.push(number);
       }
@@ -258,7 +258,7 @@ describe('Reads 1000 lines without blank lines', () => {
     const skipNumbers: number[] = [];
 
     while (skipNumbers.length < skipTotal) {
-      const number = random(0, total);
+      const number = random(1, total);
       if (!skipNumbers.includes(number)) {
         skipNumbers.push(number);
       }
@@ -415,7 +415,7 @@ describe('Reads 1000 lines with random 500 blank lines', () => {
     const skipNumbers: number[] = [];
 
     while (skipNumbers.length < skipTotal) {
-      const number = random(0, total + blank);
+      const number = random(1, total + blank);
       if (!skipNumbers.includes(number)) {
         skipNumbers.push(number);
       }
@@ -447,7 +447,7 @@ describe('Reads 1000 lines with random 500 blank lines', () => {
     const skipNumbers: number[] = [];
 
     while (skipNumbers.length < skipTotal) {
-      const number = random(0, total + blank);
+      const number = random(1, total + blank);
       if (!skipNumbers.includes(number) && lines[number - 1]) {
         skipNumbers.push(number);
       }
@@ -594,7 +594,7 @@ describe('Reads 1000 lines with random 500 blank lines', () => {
     const skipNumbers: number[] = [];
 
     while (skipNumbers.length < skipTotal) {
-      const number = random(0, total + blank);
+      const number = random(1, total + blank);
       if (!skipNumbers.includes(number)) {
         skipNumbers.push(number);
       }
@@ -626,7 +626,7 @@ describe('Reads 1000 lines with random 500 blank lines', () => {
     const skipNumbers: number[] = [];
 
     while (skipNumbers.length < skipTotal) {
-      const number = random(0, total + blank);
+      const number = random(1, total + blank);
       if (!skipNumbers.includes(number) && lines[number - 1]) {
         skipNumbers.push(number);
       }
