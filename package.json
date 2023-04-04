@@ -1,6 +1,6 @@
 {
   "name": "line-reader2",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Asynchronous, buffered, chunk-by-chunk file reader with customizable buffer size on Node.js.",
   "url": "https://github.com/aldipermanaetikaputra/line-reader2",
   "keywords": [
@@ -25,7 +25,7 @@
     "build": "tsc -p tsconfig.build.json",
     "test": "jest",
     "lint": "eslint . --ext .ts",
-    "version": "build"
+    "version": "yarn build"
   },
   "repository": {
     "type": "git",
