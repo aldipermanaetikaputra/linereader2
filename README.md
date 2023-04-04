@@ -18,7 +18,7 @@ yarn add linereader2
 
 ## Usage
 
-#### Import
+### Import
 
 ES6
 
@@ -32,7 +32,7 @@ CommonJS
 const { LineReader } = require('linereader2');
 ```
 
-#### Example
+### Example
 
 ```js
 const reader = new LineReader({
@@ -50,7 +50,7 @@ while (!reader.isClosed) {
 
 ## API
 
-#### `new LineReader(options: LineReaderOptions): LineReader`
+### `new LineReader(options: LineReaderOptions): LineReader`
 
 The options you can pass are:
 
