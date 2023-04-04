@@ -1065,10 +1065,10 @@ char-regex@^1.0.2:
   resolved "https://registry.yarnpkg.com/char-regex/-/char-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
   integrity sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==
 
-chunk-reader2@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/chunk-reader2/-/chunk-reader2-1.1.4.tgz#e11edc27eebec6243636ae7764f0327be098a1df"
-  integrity sha512-fUoAkcQQ3rh8QDGxj0Ns3wNKFVP2JJZsFDdEpnUAOucI3ZrJZez7RKsrKlqQHt5ptFfGENtzVf9mnzDTlmee+w==
+chunkreader2@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/chunkreader2/-/chunkreader2-1.1.6.tgz#cb73a2b5b53a2336b36233777f363f0f6f2cf687"
+  integrity sha512-OZFFb4y5o8NhU4klbdXwhV16RkItsCcG8C/AAfU4LWe06oJI//PUcrtyYWnKx4wM0foVFh41DZq/fTbgV/KWAA==
   dependencies:
     async-mutex "^0.4.0"
     denque "^2.1.0"

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { Mutex } from 'async-mutex';
-import { ChunkReader, ChunkReaderOptions } from 'chunk-reader2';
+import { ChunkReader, ChunkReaderOptions } from 'chunkreader2';
 import Denque from 'denque';
 import { TypedFastBitSet } from 'typedfastbitset';
 

@@ -1,4 +1,4 @@
-# line-reader2
+# linereader2
 
 Asynchronous, buffered, line-by-line file reader with customizable buffer size and separator.
 
@@ -7,13 +7,13 @@ Asynchronous, buffered, line-by-line file reader with customizable buffer size a
 NPM
 
 ```sh
-npm install line-reader2
+npm install linereader2
 ```
 
 yarn
 
 ```sh
-yarn add line-reader2
+yarn add linereader2
 ```
 
 ## Usage
@@ -23,13 +23,13 @@ yarn add line-reader2
 ES6
 
 ```js
-import { LineReader } from 'line-reader2';
+import { LineReader } from 'linereader2';
 ```
 
 CommonJS
 
 ```js
-const { LineReader } = require('line-reader2');
+const { LineReader } = require('linereader2');
 ```
 
 #### Example
