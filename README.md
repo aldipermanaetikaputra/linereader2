@@ -64,6 +64,18 @@ The options you can pass are:
 | skipBlank              | `boolean`                                                                                                     | `false`  | Used to skip blank lines (including whitespace lines).                                                                                                                                                                                                   |
 | skipNumbers            | `Array<number \| [number, number]>`                                                                           | `[]`     | Used to skip lines with the specified line number. It can be a specific number or a range (`[start, end]` exclusively). Example: `[1,2,3,4,5,[6,10]]` will skip line numbers 1 to 10 (10 lines total). Line numbers start from 1 to the number of lines. |
 
+### Instance Property
+
+The property of `LineReader` instance you can access are:
+
+| Name        | Type      | Description                                                                         |
+| ----------- | --------- | ----------------------------------------------------------------------------------- |
+| bytesLength | `number`  | Size of the file in bytes. Value assigned on `openReader()` operation               |
+| bytesRead   | `number`  | Size of the bytes read in the file by `read` operation                              |
+| linesRead   | `number`  | Total lines read by reader                                                          |
+| isOpened    | `boolean` | Indicates whether the reader has opened the file or `openReader()` has been called  |
+| isClosed    | `boolean` | Indicates whether the reader has closed the file or `closeReader()` has been called |
+
 ### Instance Methods
 
 #### `readLines(limit?: number): Promise<string[]>`
@@ -348,18 +360,6 @@ Manually open the file descriptor. This method will be called automatically on t
 #### `closeReader(): void`
 
 Manually close the file descriptor. This method will be called automatically on the last `read` operation (last file stream).
-
-### Instance Property
-
-The property of `LineReader` instance you can access are:
-
-| Name        | Type      | Description                                                                         |
-| ----------- | --------- | ----------------------------------------------------------------------------------- |
-| bytesLength | `number`  | Size of the file in bytes. Value assigned on `openReader()` operation               |
-| bytesRead   | `number`  | Size of the bytes read in the file by `read` operation                              |
-| linesRead   | `number`  | Total lines read by reader                                                          |
-| isOpened    | `boolean` | Indicates whether the reader has opened the file or `openReader()` has been called  |
-| isClosed    | `boolean` | Indicates whether the reader has closed the file or `closeReader()` has been called |
 
 ## Testing
 
