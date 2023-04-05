@@ -6,13 +6,10 @@ Asynchronous, buffered, line-by-line file reader with customizable buffer size a
 
 NPM
 
-```sh
+```bash
+# using npm
 npm install linereader2
-```
-
-yarn
-
-```sh
+# using yarn
 yarn add linereader2
 ```
 
@@ -20,15 +17,10 @@ yarn add linereader2
 
 ### Import
 
-ES6
-
 ```js
+// in ESM
 import { LineReader } from 'linereader2';
-```
-
-CommonJS
-
-```js
+// in CommonJS
 const { LineReader } = require('linereader2');
 ```
 
@@ -365,21 +357,17 @@ Manually close the file descriptor. This method will be called automatically on 
 
 This library is well tested. You can test the code as follows:
 
-NPM
-
-```sh
+```bash
+# using npm
 npm test
-```
-
-yarn
-
-```sh
+# using yarn
 yarn test
 ```
 
 ## Related
 
-- [chunkreader2](https://github.com/aldipermanaetikaputra/chunkreader2) - Asynchronous, buffered, chunk-by-chunk file reader with customizable buffer size. **(This library internally uses this package)**
+- [chunkreader2](https://github.com/aldipermanaetikaputra/chunkreader2) - Asynchronous, buffered, chunk-by-chunk file reader with customizable buffer size. **(This library uses this package internally)**
+- [linecounter2](https://github.com/aldipermanaetikaputra/linecounter2) - ⚡ Fastest and memory-efficient async file line counter with customizable buffer size and separator on Node.js.
 
 ## Contribute
 
