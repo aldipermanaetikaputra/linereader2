@@ -367,7 +367,7 @@ yarn test
 ## Related
 
 - [chunkreader2](https://github.com/aldipermanaetikaputra/chunkreader2) - Asynchronous, buffered, chunk-by-chunk file reader with customizable buffer size. **(This library uses this package internally)**
-- [linecounter2](https://github.com/aldipermanaetikaputra/linecounter2) - ⚡ Fastest and memory-efficient async file line counter with customizable buffer size and separator on Node.js.
+- [linecounter2](https://github.com/aldipermanaetikaputra/linecounter2) - ⚡ Fastest and memory-efficient async file line counter with customizable buffer size and separator.
 
 ## Contribute
 
