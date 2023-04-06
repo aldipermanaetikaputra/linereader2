@@ -4,8 +4,6 @@ Asynchronous, buffered, line-by-line file reader with customizable buffer size a
 
 ## Install
 
-NPM
-
 ```bash
 # using npm
 npm install linereader2
